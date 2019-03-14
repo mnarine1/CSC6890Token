@@ -85,4 +85,8 @@ A receipt will then be displayed. For example:
         event: 'Transfer',
         args: [Object] } ] }
 
+To get the balance of an account given an address, enter the following command:
 
+	token.getTokensLeft(accountAddress)
+
+The function will return the balance of the account in a BigNumber format.
